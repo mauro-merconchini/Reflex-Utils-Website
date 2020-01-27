@@ -1,0 +1,13 @@
+.reflex_background
+{
+    background-image: url("../media/fight.gif");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.white_text
+{
+    color: #ffffff;
+    text-shadow: 2px 2px 8px #000000;
+}
