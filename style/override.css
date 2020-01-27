@@ -9,5 +9,17 @@
 .white_text
 {
     color: #ffffff;
-    text-shadow: 2px 2px 8px #000000;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.custom-col
+{
+    /* border-style: solid; */
+    /* border-color: red; */
+}
+
+.code-background
+{
+    background-color: #ffffff;
+    padding: 8px;
 }
