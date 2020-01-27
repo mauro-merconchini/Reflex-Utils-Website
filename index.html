@@ -24,19 +24,50 @@
         </div>
     </div>
 
+    <!-- This contains the two panels for Reflex Brush Shifter -->
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-4 custom-col">
-                <img src="media/brush.png" class="img-fluid rounded" alt="Reflex Arena Brushes">
+                <img src="media/brush.png" class="img-fluid tool-img rounded" alt="Reflex Arena Brushes">
             </div>
-            <div class="col-md-8 custom-col">
+            <div class="col-md-8 custom-col toolbox-col rounded">
                 <div class="jumbotron jumbotron">
                     <h1 class="display-6"><b>Brush Shifter Utility</b></h1>
                     <hr>
                     <p>Useful for shifting all brush geometry in your map by a given amount in each axis</p>
-                    <br>
-                    <p></p><b><i>Usage</i></b></p>
+                    <p class="space-reduced"></p><b><i>Usage</i></b></p>
                     <code class="code-background rounded">ReflexBrushShifter &lt;myMap&gt;.map shift-X shift-Y shift-Z</code>
+                    <br>
+                    <br>
+                    <p>Where <code>shift-X</code>, <code>shift-Y</code>, and <code>shift-Z</code> are the values by which you wish to shift every vertex of each brush.</p> 
+                    <br>
+                    <button type="button" class="btn btn-outline-dark btn-lg">View on GitHub</button>
+                    <button type="button" class="btn btn-outline-danger btn-lg" href="">Releases</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- This contains the two panels for Reflex Entity Shifter -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 custom-col">
+                <img src="media/entity.png" class="img-fluid rounded tool-img" alt="Reflex Arena Entities">
+            </div>
+            <div class="col-md-8 custom-col">
+                <div class="jumbotron jumbotron-custom">
+                    <h1 class="display-6"><b>Entity Shifter Utility</b></h1>
+                    <hr>
+                    <p>Useful for shifting all point entities in your map by a given amount in each axis</p>
+                    <p class="space-reduced"></p><b><i>Usage</i></b></p>
+                    <code class="code-background rounded">ReflexEntityShifter &lt;myMap&gt;.map shift-X shift-Y shift-Z</code>
+                    <br>
+                    <br>
+                    <p>Where <code>shift-X</code>, <code>shift-Y</code>, and <code>shift-Z</code> are the values by which you wish to shift every entity.</p> 
+                    <br>
+                    <button type="button" class="btn btn-outline-dark btn-lg">View on GitHub</button>
+                    <button type="button" class="btn btn-outline-danger btn-lg" href="">Releases</button>
                 </div>
             </div>
         </div>

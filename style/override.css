@@ -14,12 +14,33 @@
 
 .custom-col
 {
-    /* border-style: solid; */
-    /* border-color: red; */
+    border-style: solid;
+    border-color: red;
 }
 
 .code-background
 {
     background-color: #ffffff;
     padding: 8px;
+}
+
+.space-reduced
+{
+    padding-top: 0px;
+}
+
+.jumbotron-custom
+{
+    font-size: x-large;
+    height: 100%;
+}
+
+.tool-img
+{
+    width: 100%;
+}
+
+.row
+{
+    padding-bottom: 15px;
 }
