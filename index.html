@@ -13,10 +13,8 @@
 </head>
 
 <body>
-    <!-- <div class="container">
-        <h1>Mauro's <i>Reflex Arena</i> Utilities</h1>
-    </div> -->
 
+    <!-- This draws the site header banner -->
     <div class="jumbotron jumbotron-fluid reflex_background">
         <div class="container white_text">
           <h1 class="display-4"><b>Mauro's <i>Reflex Arena</i> Utilities</b></h1>
@@ -28,10 +26,10 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-4 custom-col">
-                <img src="media/brush.png" class="img-fluid tool-img rounded" alt="Reflex Arena Brushes">
+                <div class="brush-image rounded"></div>
             </div>
             <div class="col-md-8 custom-col toolbox-col rounded">
-                <div class="jumbotron jumbotron">
+                <div class="jumbotron jumbotron-custom">
                     <h1 class="display-6"><b>Brush Shifter Utility</b></h1>
                     <hr>
                     <p>Useful for shifting all brush geometry in your map by a given amount in each axis</p>
@@ -39,10 +37,10 @@
                     <code class="code-background rounded">ReflexBrushShifter &lt;myMap&gt;.map shift-X shift-Y shift-Z</code>
                     <br>
                     <br>
-                    <p>Where <code>shift-X</code>, <code>shift-Y</code>, and <code>shift-Z</code> are the values by which you wish to shift every vertex of each brush.</p> 
+                    <p>Where <code>&lt;myMap&gt;.map</code> is your input map file and <code>shift-X</code>, <code>shift-Y</code>, <code>shift-Z</code> are the values by which you wish to shift every entity.</p>
                     <br>
-                    <button type="button" class="btn btn-outline-dark btn-lg">View on GitHub</button>
-                    <button type="button" class="btn btn-outline-danger btn-lg" href="">Releases</button>
+                    <a type="button" href="https://github.com/mauro-merconchini/ReflexBrushShifter" target="_blank" class="btn btn-outline-dark btn-lg" role="button">View on GitHub</a>
+                    <a type="button" href="https://github.com/mauro-merconchini/ReflexBrushShifter/releases" target="_blank" class="btn btn-outline-danger btn-lg" role="button">Releases</a>
                 </div>
 
             </div>
@@ -53,7 +51,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-4 custom-col">
-                <img src="media/entity.png" class="img-fluid rounded tool-img" alt="Reflex Arena Entities">
+                <div class="entity-image rounded"></div>
             </div>
             <div class="col-md-8 custom-col">
                 <div class="jumbotron jumbotron-custom">
@@ -64,11 +62,36 @@
                     <code class="code-background rounded">ReflexEntityShifter &lt;myMap&gt;.map shift-X shift-Y shift-Z</code>
                     <br>
                     <br>
-                    <p>Where <code>shift-X</code>, <code>shift-Y</code>, and <code>shift-Z</code> are the values by which you wish to shift every entity.</p> 
+                    <p>Where <code>&lt;myMap&gt;.map</code> is your input map file and <code>shift-X</code>, <code>shift-Y</code>, <code>shift-Z</code> are the values by which you wish to shift every entity.</p> 
                     <br>
-                    <button type="button" class="btn btn-outline-dark btn-lg">View on GitHub</button>
-                    <button type="button" class="btn btn-outline-danger btn-lg" href="">Releases</button>
+                    <a type="button" href="https://github.com/mauro-merconchini/ReflexEntityShifter" target="_blank" class="btn btn-outline-dark btn-lg" role="button">View on GitHub</a>
+                    <a type="button" href="https://github.com/mauro-merconchini/ReflexEntityShifter/releases" target="_blank" class="btn btn-outline-danger btn-lg" role="button">Releases</a>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- This contains the two panels for Reflex Map Center -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 custom-col">
+                <div class="overview-image rounded"></div>
+            </div>
+            <div class="col-md-8 custom-col toolbox-col rounded">
+                <div class="jumbotron jumbotron-custom">
+                    <h1 class="display-6"><b>Map Center Utility</b></h1>
+                    <hr>
+                    <p>This tool will shift all brush-based geometry and point entities such that the three-dimensional center of the map will coincide with the three-dimensional origin point of the world</p>
+                    <p><b><i>Usage</i></b></p>
+                    <code class="code-background rounded">ReflexMapCenter &lt;myMap&gt;.map</code>
+                    <br>
+                    <br>
+                    <p>Where <code>&lt;myMap&gt;.map</code> is your input map file to be centered.</p> 
+                    <br>
+                    <a type="button" href="https://github.com/mauro-merconchini/ReflexMapCenter" target="_blank" class="btn btn-outline-dark btn-lg" role="button">View on GitHub</a>
+                    <a type="button" href="https://github.com/mauro-merconchini/ReflexMapCenter/releases" target="_blank" class="btn btn-outline-danger btn-lg" role="button">Releases</a>
+                </div>
+
             </div>
         </div>
     </div>
