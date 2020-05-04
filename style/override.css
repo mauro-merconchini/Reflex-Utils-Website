@@ -14,14 +14,15 @@
 
 .custom-col
 {
-    /* border-style: solid; */
-    /* border-color: red; */
+    /* border-style: solid;
+    border-color: red; */
 }
 
 .code-background
 {
     background-color: #ffffff;
     padding: 8px;
+    
 }
 
 .jumbotron-custom
@@ -51,24 +52,27 @@
 }
 
 /* This is the Css code to make a div a square */
-.square {
+.square 
+{
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-.square:after {
+.square:after 
+{
     content: "";
     display: block;
     padding-bottom: 100%;
 }
 
-/* I like doing this for divs that have a background image */
-/* Then I just set the bg image inline */
-/* But since you already set them here in the css we'll leave it like that */
-/* But we'll apply this class to them */
-.bg-div {
+/* I like doing this for divs that have a background image
+Then I just set the bg image inline
+But since you already set them here in the css we'll leave it like that
+But we'll apply this class to them */
+.bg-div 
+{
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
